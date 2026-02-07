@@ -8,7 +8,7 @@ This role installs the latest Docker CE on RHEL/CentOS 9 and ensures the Docker 
 
 ## Usage
 ```yaml
-- hosts: dev
+- hosts: servers
   become: yes
   roles:
     - docker
